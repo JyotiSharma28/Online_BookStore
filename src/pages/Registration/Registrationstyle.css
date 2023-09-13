@@ -1,0 +1,45 @@
+
+label{
+  font-size: 15px;
+ 
+}
+
+input[type=text], input[type=number], input[type=date] ,input[type=password],input[type=email]{
+  width:100%; 
+  padding: 10px 15px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+
+
+input:hover {
+  background-color:lightgrey;
+}
+Select:hover {
+  background-color:lightgrey;
+}
+
+/* 
+ Select{
+  width:500px;
+  height: 40px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 15px;
+
+}
+select>option{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+   
+    background-color: rgb(247, 247, 247);
+    padding: 20px;
+    height: 200px;
+   
+}  */

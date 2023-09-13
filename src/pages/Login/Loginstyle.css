@@ -1,0 +1,43 @@
+.bredcrumb-wrapper{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+label{
+    font-size: 15px;
+   
+  }
+.container {
+    
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color:#ccc;
+    
+  
+  }
+
+  input[type=email]{
+    width:400px; 
+    padding: 10px 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+  input:hover {
+    background-color:lightgrey;
+  }
+
+  
+
+  Form {
+    box-sizing: border-box;
+    padding: 2rem;
+    border-radius: '10px';
+    border: 4px solid hsl(0, 0%, 90%);
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
